@@ -186,6 +186,7 @@
   top: 0;
   width: 100%;
   z-index: 99;
+  height: ;
 }
 .sticky__header.scroll-header .logo a {
   height: 70px;
