@@ -2,7 +2,7 @@
 .field {
     display: flex;
     flex-flow: column-reverse;
-    margin-bottom: 1em;
+    margin-bottom: 0.1em;
   }
  
   .field>label, .field>input {
@@ -66,6 +66,6 @@
   */
   .field>input:not(:placeholder-shown) + label,
   .field>input:focus + label {
-    transform: translate(0, 0.1rem) scale(1);
+    transform: translate(0, 0.6rem) scale(1);
     cursor: pointer;
   }

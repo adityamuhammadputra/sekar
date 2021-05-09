@@ -118,3 +118,19 @@ select.select-lang {
   margin-left: .25em;
 }
 
+footer{
+  position: unset !important;
+}
+
+.fixed__footer{
+  margin-bottom: 0px !important;
+}
+
+.footer__container{
+  padding-top: 40px;
+  padding-bottom: 25px;
+}
+
+.htc__copyright__area{
+  padding-bottom: 40px;
+}

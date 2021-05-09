@@ -17,7 +17,7 @@
                     <div class="htc__login__register__wrap">
                         <!-- Start Single Content -->
                         <div id="register" role="tabpanel" class="single__tabs__panel tab-pane fade active in">
-                            <h3> Sign Up With Email </h3>
+                            <h3> Bergabung dengan Email </h3>
                             <form class="login" method="post">
                                 <div class="field">
                                     <input type="text" name="name" id="name" placeholder="Masukan Nama">
@@ -31,6 +31,7 @@
                                     <input type="password" name="password" id="password" placeholder="Masukan Password">
                                     <label for="password">Password *</label>
                                 </div>
+                                <br>
                             </form>
                             <div class="tabs__checkbox">
                                 <input type="checkbox">
