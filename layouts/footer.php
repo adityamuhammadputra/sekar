@@ -1,6 +1,6 @@
  <!-- End Blog Area -->
         <!-- Start Footer Area -->
-        <footer class="htc__foooter__area gray-bg">
+        <footer class="htc__foooter__area bg__white">
             <div class="container">
                 <div class="row">
                     <div class="footer__container clearfix">
