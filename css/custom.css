@@ -1,10 +1,18 @@
-/* .#d44a0c */
+/* .#d44a0c #2e6da4*/
 .pt-1 {
   padding-top: 0.5rem;
 }
 
 .pb-1 {
   padding-bottom: 0.5rem;
+}
+
+.mt-1{
+  margin-top: 0.5rem;
+}
+
+.mt-2{
+  margin-top: 1rem;
 }
 
 .btn-primary-outline {
@@ -22,6 +30,59 @@
   color: #d44a0c;
 }
 
+.btn-flat{
+  border-radius: 0px;
+}
+
+.btn-join {
+  position: absolute;
+  right: 17px;
+  margin-top: -10px;
+  width: 100px;
+}
+
+.recent-post-dtl .title{
+  font-size: 20px;
+  font-weight: 500;
+  color: #555555;
+}
+
+.recent-post-dtl .price {
+  text-align: right;
+  float: right;
+  background: #2e6da4;
+  opacity: 0.9;
+  color: white;
+  padding: 0px 10px;
+  font-size: 10px;
+  top: -2px;
+}
+.recent-post-time .star{
+  color: orange;
+  font-size: 15px;
+}
+
+.recent-post-time p.separator {
+  margin: 0 4px;
+  color: #c7c7c7;
+}
+
+.recent-post-dtl b {
+  font-weight: 450;
+}
+
+.our-blog-tag .btn{
+  width: 100%;
+  font-weight: 500;
+}
+
+
+.recent-thumb a img {
+  width: 200px;
+  height: 120px;
+  max-width: unset;
+}
+
 .select-lang {
   width: 150px;
   float: right;
@@ -29,6 +90,12 @@
   color: #d44a0c;
   border: 1px solid #d6d6d6;
   height: 30px;
+}
+
+.tag-menu li a:hover {
+  background: transparent;
+  border: 1px solid #2e6da4;
+  color: #2e6da4;
 }
 
 select.select-lang {
@@ -67,12 +134,13 @@ a.active {
   color: #d44a0c;
 }
 
+
 .badge-tranding{
   font-size: 9px;
   padding: 3px 5px;
-  border-radius: 0px;
+  border-radius: 2px;
   position: relative;
-  background: #d44a0c;
+  background: #2e6da4;
   position: absolute;
   z-index: 1;
   margin-right: 10px;

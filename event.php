@@ -21,7 +21,11 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-                <div class="our-category-area " style="background: white;padding: 12px 15px;border: 1px solid #efefef;">
+            <div class="our-blog-tag" style="background: white;padding: 12px 15px;border: 1px solid #efefef; margin-top: 0px;">
+                    <h3 class="section-title-2">Events I’m Organizing</h3>
+                    <button class="btn btn-primary btn-primary-outline btn-flat mt-2"><i class="zmdi zmdi-plus"></i> Create Event</button>
+                </div>
+                <div class="our-category-area " style="background: white;padding: 12px 15px;border: 1px solid #efefef;  margin-top: 20px">
                     <h3 class="section-title-2">Filter</h3>
                     <ul class="categore-menu">
                         <li><input type="text" name="filter" class="form-control" placeholder="Enter keyword"></li>
@@ -49,7 +53,52 @@
                 <div class="our-recent-post-wrap">
                     <div class="single-recent-post">
                         <div class="recent-thumb">
-                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images" style="width: 110px;"></a>
+                            <a href="event/gede-pangrango.php" class="title"><img src="images/event/gede.jpg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6>
+                                    <a href="#" class="title">Gunung Gede Pangrango</a>
+                                    <a class="price"> Rp. 200.000</a>
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam .... <br>
+                                    Mepo <u><b>Terminal kampung Rambutan, Jakarta</b></u>
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p><i class="zmdi zmdi-star star"></i> 5</p>
+                                <p class="separator">|</p>
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>10 P to 20 P</p>
+                                <button class="btn btn-primary btn-primary-outline btn-flat btn-join">Join</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/event/ora.jpeg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6><a href="blog-details.html">Pantai Ora Beach</a></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam animi officia velit omnis eveniet.
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p><i class="zmdi zmdi-star"></i>4.9</p>
+                                <p class="separator">|</p>
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>2D1N</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
                         </div>
                         <div class="recent-details">
                             <div class="recent-post-dtl">
@@ -59,7 +108,97 @@
                                 </p>
                             </div>
                             <div class="recent-post-time">
-                                <p>14 SEP 2021 s/d 15 SEP 2021 </p>
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>2D1N</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6><a href="blog-details.html">Gunung Gede Pangrango</a></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam animi officia velit omnis eveniet.
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>2D1N</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6><a href="blog-details.html">Gunung Gede Pangrango</a></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam animi officia velit omnis eveniet.
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>2D1N</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6><a href="blog-details.html">Gunung Gede Pangrango</a></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam animi officia velit omnis eveniet.
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>2D1N</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6><a href="blog-details.html">Gunung Gede Pangrango</a></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam animi officia velit omnis eveniet.
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p>2D1N</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="blog-details.html"><img src="images/blog/sm-img/1.jpg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6><a href="blog-details.html">Gunung Gede Pangrango</a></h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam animi officia velit omnis eveniet.
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p>14 Sep s/d 15 Sep 2021 </p>
                                 <p class="separator">|</p>
                                 <p>2D1N</p>
                             </div>
