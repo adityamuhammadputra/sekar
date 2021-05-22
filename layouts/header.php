@@ -10,10 +10,6 @@
     <!-- Place favicon.ico in the root directory -->
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    
-
-    <!-- All css files are included here. -->
-    <!-- Bootstrap fremwork main css -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Owl Carousel main css -->
     <link rel="stylesheet" href="css/owl.carousel.min.css">
@@ -42,6 +38,16 @@
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->  
 
+    <?php
+        $pages = [];
+        $pages["event.php"] = "Event";
+        $pages["blog.php"] = "Blog";
+        $pages["gallery.php"] = "Gallery";
+        // var_dump($pages);
+    // $activePage = "event.php";
+
+    ?>
+    
     <!-- Body main wrapper start -->
     <div class="wrapper fixed__footer" style="margin-bottom: 0px;">
         <!-- Start Header Style -->
@@ -69,9 +75,9 @@
                         <div class="col-md-2 col-sm-4 col-xs-3">  
                     
                             <ul class="menu-extra">
-                                   
-                                <li><a href="event.php">Event</a></li>
-                                <li><a href="blog.php">Blog</a></li>
+                                <?php foreach($pages as $url => $title): ?>
+                                    <li><a href="<?= $url ?>" <?php if($url === $activePage):?>class="active"<?php endif;?>><?= $title ?></a></li>
+                                <?php endforeach;?>
                                 <li>
                                     <a class="btn btn-primary btn-primary-outline">Log In</a>
                                 </li>
