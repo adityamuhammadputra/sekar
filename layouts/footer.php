@@ -47,14 +47,13 @@
                         <!-- Start Single Footer Widget -->
                         <div class="col-md-3 col-lg-2 col-sm-6 smt-30 xmt-30">
                             <div class="ft__widget">
-                                <h2 class="ft__title">Kategori</h2>
+                                <h2 class="ft__title">Lainnya</h2>
                                 <ul class="footer-categories">
-                                    <li><a href="#">Gunung</a></li>
-                                    <li><a href="#">Bukit</a></li>
-                                    <li><a href="#">Pantai</a></li>
-                                    <li><a href="#">Air Terjun</a></li>
-                                    <li><a href="#">Goa</a></li>
-                                    <li><a href="#">Rafting</a></li>
+                                    <li><a href="#">Shop</a></li>
+                                    <li><a href="#">Penginapan</a></li>
+                                    <li><a href="#">Tiket Pesawat</a></li>
+                                    <li><a href="#">Tiket Kereta</a></li>
+
                                 </ul>
                             </div>
                         </div>
@@ -63,8 +62,8 @@
                             <div class="ft__widget">
                                 <h2 class="ft__title">Infomasi</h2>
                                 <ul class="footer-categories">
-                                    <li><a href="about.html">Tentang</a></li>
-                                    <li><a href="contact.html">Kontak</a></li>
+                                    <li><a href="#">Tentang</a></li>
+                                    <li><a href="#">Kontak</a></li>
                                     <li><a href="#">Terms & Conditions</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
                                 </ul>

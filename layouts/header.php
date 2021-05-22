@@ -58,7 +58,7 @@
                     <div class="row" style="height: 70px;">
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="images/logo1.png" alt="logo" width="140px">
                                 </a>
                             </div>

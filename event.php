@@ -32,9 +32,26 @@
                         <li><a href="#"><i class="zmdi zmdi-caret-right"></i>Type Trip</a></li>
                         <li><a href="#"><i class="zmdi zmdi-caret-right"></i>Kategori</a></li>
                         <li><a href="#"><i class="zmdi zmdi-caret-right"></i>Meeting Point</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-caret-right"></i>Destinasi</a></li>
-                        <li><a href="#"><i class="zmdi zmdi-caret-right"></i>Harga</a></li>
+                        <li><a href="#"><i class="zmdi zmdi-caret-right"></i>Date</a></li>
+                        <li style="border-bottom: unset;">
+                            <a href="#"><i class="zmdi zmdi-caret-down"></i>Price</a>
+                        </li>
                     </ul>
+                    
+                    <div class="row">
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" value="100K">
+                        </div>
+                        <div class="col-md-2">
+                            to
+                        </div>
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" value="10.000K">
+                        </div>
+                        <div class="col-md-12 pt-1">
+                            <input type="range" min="0" max="15000" value="10000">
+                        </div>
+                    </div>
                 </div>
                 <div class="our-blog-tag" style="background: white;padding: 12px 15px;border: 1px solid #efefef; margin-top: 20px;">
                     <h3 class="section-title-2">Trending</h3>
@@ -51,7 +68,7 @@
 
             <div class="col-md-9">
                 <div class="our-recent-post-wrap">
-                    <div class="single-recent-post">
+                    <div class="single-recent-post first">
                         <div class="recent-thumb">
                             <a href="event/gede-pangrango.php" class="title"><img src="images/event/gede.jpg" alt="post images"></a>
                         </div>
@@ -72,10 +89,37 @@
                                 <p>14 Sep s/d 15 Sep 2021 </p>
                                 <p class="separator">|</p>
                                 <p>10 P to 20 P</p>
-                                <button class="btn btn-primary btn-primary-outline btn-flat btn-join">Join</button>
                             </div>
+                            <button class="btn btn-primary btn-primary-outline btn-flat btn-join">Join</button>
                         </div>
                     </div>
+
+                    <div class="single-recent-post">
+                        <div class="recent-thumb">
+                            <a href="event/gede-pangrango.php" class="title"><img src="images/event/ora.jpeg" alt="post images"></a>
+                        </div>
+                        <div class="recent-details">
+                            <div class="recent-post-dtl">
+                                <h6>
+                                    <a href="#" class="title">Pantai Ora</a>
+                                    <a class="price"> Rp. 2.200.000</a>
+                                </h6>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Suscipit incidunt ea tempore hic fuga earum obcaecati quod, repellat dolorum nam, in non aperiam dolore numquam .... <br>
+                                    Mepo <u><b>Bandara Soekarno Hatta, Cengkareng</b></u>
+                                </p>
+                            </div>
+                            <div class="recent-post-time">
+                                <p><i class="zmdi zmdi-star star"></i> 5</p>
+                                <p class="separator">|</p>
+                                <p>14 Sep s/d 15 Sep 2021 </p>
+                                <p class="separator">|</p>
+                                <p><i class="zmdi zmdi-lock"></i> Private</p>
+                            </div>
+                            <button class="btn btn-primary btn-primary-outline btn-flat btn-join">Join</button>
+                        </div>
+                    </div>
+
                     <div class="single-recent-post">
                         <div class="recent-thumb">
                             <a href="blog-details.html"><img src="images/event/ora.jpeg" alt="post images"></a>
