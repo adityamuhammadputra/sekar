@@ -1,4 +1,8 @@
 /* .#d44a0c #2e6da4*/
+
+.pl-0{
+  padding-left: 0px !important;
+}
 .pt-1 {
   padding-top: 0.5rem;
 }
@@ -15,6 +19,15 @@
   margin-top: 1rem;
 }
 
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+
+.mb-2 {
+  margin-bottom: 1rem;
+}
+
 .btn-primary-outline {
     background: transparent;
     color: #2e6da4;
@@ -24,6 +37,7 @@
   background: #d44a0c;
   border: 1px solid #d44a0c;
 }
+
 
 .btn-primary-2-outlet{
   background: transparent;
@@ -42,8 +56,9 @@
   top: 5px;
 }
 
+
 .our-recent-post-wrap{
-  max-height: 730px;
+  max-height: 780px;
   overflow-y: auto;
 }
 
@@ -74,6 +89,57 @@
   border-bottom: 1px solid #ececec;
 }
 
+.pro__detl__title h2 {
+  color: #2e6da4;
+}
+
+.product-video a:hover, .buy__now__btn a:hover{
+  background: #d44a0c !important;
+}
+
+.pro__dtl__prize li, .color-orange{
+  color: #d44a0c !important;
+}
+
+.color-blue {
+  color: #2e6da4 !important;
+}
+
+.pro__dtl__prize li.old__prize {
+  color: grey !important;
+}
+
+.review__thumb img{
+  border-radius: 100px !important;
+}
+
+.recent-post-dtl a:hover, .recent-post-dtl a {
+  color: #2e6da4 !important;
+}
+
+.blog-details-top {
+  padding-top: 25px;
+  border-top: 1px solid #e4e4e4;
+  margin-bottom: 20px;
+}
+
+.blog-details-top.fisrt {
+  padding-top: unset !important;
+  border-top: unset !important;
+}
+
+.blog-details-top h2 {
+  padding-top: 15px;
+}
+
+.blog-admin-and-comment {
+  margin-bottom: 5px;
+}
+
+.product__deatils__tab {
+  justify-content: left !important;
+}
+
 .single-recent-post.first{
   margin-top: 0px;
 }
@@ -87,7 +153,7 @@
 .recent-post-dtl .price {
   text-align: right;
   float: right;
-  background: #2e6da4;
+  background: #d44a0c;
   opacity: 0.9;
   color: white;
   padding: 0px 10px;
@@ -99,7 +165,7 @@
   float: left;
 }
 .recent-post-time .star{
-  color: orange;
+  color: #d44a0c;
   font-size: 15px;
 }
 
@@ -113,6 +179,7 @@
 }
 
 
+
 .our-blog-tag .btn{
   width: 100%;
   font-weight: 500;
@@ -123,6 +190,17 @@
   width: 200px;
   height: 120px;
   max-width: unset;
+}
+
+.recent-thumb.recent-thumb a img {
+  width: 160px !important; 
+}
+
+.product-video {
+  padding: 0 0 20px 20px;
+}
+.product-video a {
+  color: white;
 }
 
 .select-lang {
@@ -223,7 +301,7 @@ a.active {
 }
 
 .area .head h2{
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .section-title-2 {

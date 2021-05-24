@@ -27,6 +27,7 @@
    
     <!-- User style -->
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/input-range.css">
 
 
     <!-- Modernizr JS -->
