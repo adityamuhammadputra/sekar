@@ -21,7 +21,7 @@
         </div>
         <div class="row">
             <div class="col-md-3">
-            <div class="our-blog-tag" style="background: white;padding: 12px 15px;border: 1px solid #efefef; margin-top: 0px;">
+                <div class="our-blog-tag" style="background: white;padding: 12px 15px;border: 1px solid #efefef; margin-top: 0px;">
                     <h3 class="section-title-2">Request</h3>
                     <button class="btn btn-primary btn-primary-outline btn-flat mt-2"><i class="zmdi zmdi-plus"></i> Create Event</button>
                 </div>
