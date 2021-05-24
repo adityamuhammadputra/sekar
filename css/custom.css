@@ -155,7 +155,7 @@
   float: right;
   background: #d44a0c;
   opacity: 0.9;
-  color: white;
+  color: white !important;
   padding: 0px 10px;
   font-size: 10px;
   top: -2px;
