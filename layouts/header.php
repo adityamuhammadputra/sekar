@@ -60,7 +60,7 @@
                         <div class="col-md-2 col-lg-2 col-sm-3 col-xs-3">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="images/logo1.png" alt="logo">
+                                    <img src="images/logo.png" alt="logo">
                                 </a>
                             </div>
                         </div>
