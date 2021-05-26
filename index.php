@@ -21,15 +21,15 @@
                             <form class="login" method="post">
                                 <div class="field">
                                     <input type="text" name="name" id="name" placeholder="Masukan Nama">
-                                    <label for="name">Nama *</label>
+                                    <label for="name">Nama</label>
                                 </div>
                                 <div class="field">
                                     <input type="email" name="email" id="email" placeholder="Masukan Email">
-                                    <label for="email">Email *</label>
+                                    <label for="email">Email</label>
                                 </div>
                                 <div class="field">
                                     <input type="password" name="password" id="password" placeholder="Masukan Password">
-                                    <label for="password">Password *</label>
+                                    <label for="password">Password</label>
                                 </div>
                                 <br>
                             </form>
@@ -54,6 +54,55 @@
                 </div>
             </div>
             <!-- End Login Register Content -->
+        </div>
+    </div>
+
+    <div class="htc__brand__area gray-bg ptb--60">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section__title section__title--2 text-center">
+                        <h2 class="title__line">Yang menarik lainnya</h2>
+                        <p>Temukan tawaran menarik lainnya dengan berbagai kemudahan dan promo special</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-12">
+                    <ul class="brand__list">
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/pesawat.png" alt="brand images">
+                            </a>
+                            Tiket Pesawat
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/kereta.png" alt="brand images">
+                            </a>
+                            Tiket Kereta
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/penginapan.png" alt="brand images">
+                            </a>
+                            Penginapan
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/icons/belanja.png" alt="brand images">
+                            </a>
+                            Belanja
+                        </li>
+                        <li class="hidden-sm">
+                            <a href="#">
+                                <img src="images/icons/makan.png" alt="brand images">
+                            </a>
+                            Voucher Makan
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 <?php

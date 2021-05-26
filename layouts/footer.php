@@ -22,7 +22,7 @@
                                                 <i class="zmdi zmdi-email"></i>
                                             </div>
                                             <div class="address-text">
-                                                <a href="#"> info@emehbio.com</a>
+                                                <a href="#"> info@beforewego.id</a>
                                             </div>
                                         </li>
                                         <li>
@@ -103,7 +103,7 @@
                         <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                             <div class="copyright__inner">
                                 <div class="copyright">
-                                    <p>© 2021 <a href="https://freethemescloud.com/">EmehBio</a>
+                                    <p>© 2021 <a href="#">beforewego.id</a>
                                     All Right Reserved.</p>
                                 </div>
                             </div>
